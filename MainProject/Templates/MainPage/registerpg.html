@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form action="" method="post">
+            {% csrf_token %}
+                <!-- {{form.as_p}} -->
+                <input type="text" placeholder="Enter registration id" name="registerid"> <br><br>
+                <input type="text" placeholder="Enter full name" name="name"><br><br>
+                <input type="text" placeholder="Enter email" name="email"><br><br>
+                <input type="text" placeholder="Enter mobile number" name="mobile"><br><br>
+                <input type="submit" value="Register_PG">
+        </form>
+    </body>
+</html>

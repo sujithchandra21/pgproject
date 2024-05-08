@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form action="" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+
+            {{frm.as_p}}
+            <input type="submit" value="save">
+            <a href="{% url 'pgloginurl' %}">HOME</a>
+        </form>
+    </body>
+</html>
